@@ -1,0 +1,5 @@
+{
+    "ConnectionStrings": {
+        "Test": "Server=localhost;Database=gtdpad_test;Trusted_Connection=yes"
+    }
+}

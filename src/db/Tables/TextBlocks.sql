@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[TextBlocks]
+(
+	[ID] UNIQUEIDENTIFIER NOT NULL CONSTRAINT [PK_TextBlocks] PRIMARY KEY,
+    [Text] NVARCHAR(MAX) NOT NULL,
+    CONSTRAINT [FK_TextBlocks_Sections] FOREIGN KEY ([ID]) REFERENCES [Sections] ([ID])
+)
